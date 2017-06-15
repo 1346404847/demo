@@ -1,11 +1,11 @@
 <?php
 
-namespace frontend\assets;
+namespace demo\assets;
 
 use yii\web\AssetBundle;
 
 /**
- * Main frontend application asset bundle.
+ * Main demo application asset bundle.
  */
 class AppAsset extends AssetBundle
 {
