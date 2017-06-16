@@ -11,6 +11,11 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'demo\controllers',
+    'modules' => [
+        'upload' => [
+            'class' => 'demo\modules\upload\Module',
+        ],
+    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-demo',
