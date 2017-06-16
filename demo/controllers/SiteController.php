@@ -8,10 +8,10 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
-use frontend\models\PasswordResetRequestForm;
-use frontend\models\ResetPasswordForm;
-use frontend\models\SignupForm;
-use frontend\models\ContactForm;
+use demo\models\PasswordResetRequestForm;
+use demo\models\ResetPasswordForm;
+use demo\models\SignupForm;
+use demo\models\ContactForm;
 
 /**
  * Site controller
